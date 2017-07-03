@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */; };
+		FBADEA4E1F0A8BF900F19CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */; };
+		FBADEA511F0A8BF900F19CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */; };
+		FBADEA531F0A8BF900F19CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA521F0A8BF900F19CDB /* Assets.xcassets */; };
+		FBADEA561F0A8BF900F19CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */; };
+		FBADEA611F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBADEA5D1F0A8BF900F19CDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBADEA401F0A8BF900F19CDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBADEA471F0A8BF900F19CDB;
+			remoteInfo = "hubrick-firebaseApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBADEA481F0A8BF900F19CDB /* hubrick-firebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hubrick-firebaseApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBADEA501F0A8BF900F19CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBADEA521F0A8BF900F19CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBADEA551F0A8BF900F19CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBADEA571F0A8BF900F19CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBADEA5C1F0A8BF900F19CDB /* hubrick-firebaseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hubrick-firebaseAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubrick_firebaseAppTests.swift; sourceTree = "<group>"; };
+		FBADEA621F0A8BF900F19CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBADEA451F0A8BF900F19CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEA591F0A8BF900F19CDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBADEA3F1F0A8BF900F19CDB = {
+			isa = PBXGroup;
+			children = (
+				FBADEA4A1F0A8BF900F19CDB /* hubrick-firebaseApp */,
+				FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */,
+				FBADEA491F0A8BF900F19CDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBADEA491F0A8BF900F19CDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA481F0A8BF900F19CDB /* hubrick-firebaseApp.app */,
+				FBADEA5C1F0A8BF900F19CDB /* hubrick-firebaseAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBADEA4A1F0A8BF900F19CDB /* hubrick-firebaseApp */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */,
+				FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */,
+				FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */,
+				FBADEA521F0A8BF900F19CDB /* Assets.xcassets */,
+				FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */,
+				FBADEA571F0A8BF900F19CDB /* Info.plist */,
+			);
+			path = "hubrick-firebaseApp";
+			sourceTree = "<group>";
+		};
+		FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */,
+				FBADEA621F0A8BF900F19CDB /* Info.plist */,
+			);
+			path = "hubrick-firebaseAppTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBADEA471F0A8BF900F19CDB /* hubrick-firebaseApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADEA651F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseApp" */;
+			buildPhases = (
+				FBADEA441F0A8BF900F19CDB /* Sources */,
+				FBADEA451F0A8BF900F19CDB /* Frameworks */,
+				FBADEA461F0A8BF900F19CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hubrick-firebaseApp";
+			productName = "hubrick-firebaseApp";
+			productReference = FBADEA481F0A8BF900F19CDB /* hubrick-firebaseApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBADEA5B1F0A8BF900F19CDB /* hubrick-firebaseAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBADEA681F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseAppTests" */;
+			buildPhases = (
+				FBADEA581F0A8BF900F19CDB /* Sources */,
+				FBADEA591F0A8BF900F19CDB /* Frameworks */,
+				FBADEA5A1F0A8BF900F19CDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBADEA5E1F0A8BF900F19CDB /* PBXTargetDependency */,
+			);
+			name = "hubrick-firebaseAppTests";
+			productName = "hubrick-firebaseAppTests";
+			productReference = FBADEA5C1F0A8BF900F19CDB /* hubrick-firebaseAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBADEA401F0A8BF900F19CDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "--AnonymousChallenge--";
+				TargetAttributes = {
+					FBADEA471F0A8BF900F19CDB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					FBADEA5B1F0A8BF900F19CDB = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FBADEA471F0A8BF900F19CDB;
+					};
+				};
+			};
+			buildConfigurationList = FBADEA431F0A8BF900F19CDB /* Build configuration list for PBXProject "hubrick-firebaseApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBADEA3F1F0A8BF900F19CDB;
+			productRefGroup = FBADEA491F0A8BF900F19CDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBADEA471F0A8BF900F19CDB /* hubrick-firebaseApp */,
+				FBADEA5B1F0A8BF900F19CDB /* hubrick-firebaseAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBADEA461F0A8BF900F19CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEA561F0A8BF900F19CDB /* LaunchScreen.storyboard in Resources */,
+				FBADEA531F0A8BF900F19CDB /* Assets.xcassets in Resources */,
+				FBADEA511F0A8BF900F19CDB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEA5A1F0A8BF900F19CDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBADEA441F0A8BF900F19CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEA4E1F0A8BF900F19CDB /* ViewController.swift in Sources */,
+				FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBADEA581F0A8BF900F19CDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBADEA611F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBADEA5E1F0A8BF900F19CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBADEA471F0A8BF900F19CDB /* hubrick-firebaseApp */;
+			targetProxy = FBADEA5D1F0A8BF900F19CDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBADEA501F0A8BF900F19CDB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBADEA551F0A8BF900F19CDB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBADEA631F0A8BF900F19CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBADEA641F0A8BF900F19CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBADEA661F0A8BF900F19CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hubrick-firebaseApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FBADEA671F0A8BF900F19CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hubrick-firebaseApp/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FBADEA691F0A8BF900F19CDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hubrick-firebaseAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hubrick-firebaseApp.app/hubrick-firebaseApp";
+			};
+			name = Debug;
+		};
+		FBADEA6A1F0A8BF900F19CDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "hubrick-firebaseAppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hubrick-firebaseApp.app/hubrick-firebaseApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBADEA431F0A8BF900F19CDB /* Build configuration list for PBXProject "hubrick-firebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEA631F0A8BF900F19CDB /* Debug */,
+				FBADEA641F0A8BF900F19CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBADEA651F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEA661F0A8BF900F19CDB /* Debug */,
+				FBADEA671F0A8BF900F19CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBADEA681F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBADEA691F0A8BF900F19CDB /* Debug */,
+				FBADEA6A1F0A8BF900F19CDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBADEA401F0A8BF900F19CDB /* Project object */;
+}
