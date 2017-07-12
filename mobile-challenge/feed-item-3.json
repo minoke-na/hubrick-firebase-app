@@ -1,0 +1,35 @@
+{
+   "id":"123",
+   "type":"UPDATE",
+   "author":{
+      "name":"hubrick_original",
+      "displayName":"Hubrick Original",
+      "avatarImage":{
+         "url":"url",
+         "mimeType":"image/png"
+      }
+   },
+   "payload":{
+      "stats":{
+         "reactionStats":{
+            "counts":{
+               "LIKE":4,
+               "SHARE":1
+            },
+            "selfReactions":{
+
+            }
+         },
+         "commentStats":{
+            "count":9
+         }
+      },
+      "plainTitle":"Be rewarded in new ways",
+      "plainContentPreview":"Be rewarded in new ways. If you’re like us, you spend a lot of time connected to the internet, staring at your phone, your computer, your tablet, reading, watching videos, playing games, sharing your opinions on what’s going on around you... You squeeze activities into whatever spare time you have. What if that time could turn into real value? Well, on Hubrick you get points for being active, and you get tokens when you buy stuff. And you get fancy crates when you trigger bonuses from completing missions, competitions and challenges, whether you complete them alon",
+      "path":"/tease/be-rewarded-in-new-ways",
+      "headLineImage":{
+         "url":"url",
+         "mimeType":"image/jpeg"
+      }
+   }
+}

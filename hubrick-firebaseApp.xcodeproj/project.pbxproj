@@ -7,12 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		74E78D18DB59DE1932171CCB /* Pods_hubrick_firebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */; };
+		89AD770A088AABDEA253C3D5 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */; };
+		FB387FA61F153D8500179D87 /* ItemsFeedViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FA51F153D8500179D87 /* ItemsFeedViewModelsTests.swift */; };
+		FB387FA81F153ED600179D87 /* ItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FA71F153ED600179D87 /* ItemTests.swift */; };
+		FB387FAB1F154A1200179D87 /* feed-item-3.json in Resources */ = {isa = PBXBuildFile; fileRef = FB387FA91F154A1200179D87 /* feed-item-3.json */; };
+		FB387FAC1F154A1200179D87 /* feed-item-2.json in Resources */ = {isa = PBXBuildFile; fileRef = FB387FAA1F154A1200179D87 /* feed-item-2.json */; };
+		FB387FAE1F154CAE00179D87 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FAD1F154CAE00179D87 /* TestHelpers.swift */; };
 		FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */; };
-		FBADEA4E1F0A8BF900F19CDB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */; };
+		FBADEA4E1F0A8BF900F19CDB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4D1F0A8BF900F19CDB /* MainViewController.swift */; };
 		FBADEA511F0A8BF900F19CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */; };
 		FBADEA531F0A8BF900F19CDB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA521F0A8BF900F19CDB /* Assets.xcassets */; };
-		FBADEA561F0A8BF900F19CDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */; };
-		FBADEA611F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */; };
+		FBADEA611F0A8BF900F19CDB /* MainViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA601F0A8BF900F19CDB /* MainViewControllerTests.swift */; };
+		FBADEA721F0A8D9900F19CDB /* feed-card.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA6B1F0A8D9900F19CDB /* feed-card.png */; };
+		FBADEA731F0A8D9900F19CDB /* feed-item.json in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA6C1F0A8D9900F19CDB /* feed-item.json */; };
+		FBADEA741F0A8D9900F19CDB /* google-services.json in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA6D1F0A8D9900F19CDB /* google-services.json */; };
+		FBADEA751F0A8D9900F19CDB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA6E1F0A8D9900F19CDB /* GoogleService-Info.plist */; };
+		FBADEA791F0A8E4B00F19CDB /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA771F0A8E4B00F19CDB /* ItemTableViewCell.swift */; };
+		FBADEA7A1F0A8E4B00F19CDB /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA781F0A8E4B00F19CDB /* ItemTableViewCell.xib */; };
+		FBADEA7D1F0A8EAA00F19CDB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA7C1F0A8EAA00F19CDB /* Item.swift */; };
+		FBADEA801F0A8F2500F19CDB /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA7F1F0A8F2500F19CDB /* ItemViewModel.swift */; };
+		FBADEA831F0A9E2000F19CDB /* ItemsFeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA821F0A9E2000F19CDB /* ItemsFeedViewModel.swift */; };
+		FBADEA851F0AA11A00F19CDB /* DataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA841F0AA11A00F19CDB /* DataProvider.swift */; };
+		FBADEA871F0AA17C00F19CDB /* HubrickDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA861F0AA17C00F19CDB /* HubrickDataProvider.swift */; };
+		FBADEA8A1F0AB90B00F19CDB /* image-card.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA891F0AB90B00F19CDB /* image-card.png */; };
+		FBADEA8C1F0AB9B400F19CDB /* avatar-card.png in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA8B1F0AB9B400F19CDB /* avatar-card.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,16 +45,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB387FA51F153D8500179D87 /* ItemsFeedViewModelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsFeedViewModelsTests.swift; sourceTree = "<group>"; };
+		FB387FA71F153ED600179D87 /* ItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTests.swift; sourceTree = "<group>"; };
+		FB387FA91F154A1200179D87 /* feed-item-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feed-item-3.json"; sourceTree = "<group>"; };
+		FB387FAA1F154A1200179D87 /* feed-item-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feed-item-2.json"; sourceTree = "<group>"; };
+		FB387FAD1F154CAE00179D87 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		FBADEA481F0A8BF900F19CDB /* hubrick-firebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hubrick-firebaseApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBADEA4D1F0A8BF900F19CDB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FBADEA501F0A8BF900F19CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBADEA521F0A8BF900F19CDB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FBADEA551F0A8BF900F19CDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBADEA571F0A8BF900F19CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBADEA5C1F0A8BF900F19CDB /* hubrick-firebaseAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hubrick-firebaseAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hubrick_firebaseAppTests.swift; sourceTree = "<group>"; };
+		FBADEA601F0A8BF900F19CDB /* MainViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewControllerTests.swift; sourceTree = "<group>"; };
 		FBADEA621F0A8BF900F19CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBADEA6B1F0A8D9900F19CDB /* feed-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "feed-card.png"; sourceTree = "<group>"; };
+		FBADEA6C1F0A8D9900F19CDB /* feed-item.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feed-item.json"; sourceTree = "<group>"; };
+		FBADEA6D1F0A8D9900F19CDB /* google-services.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "google-services.json"; sourceTree = "<group>"; };
+		FBADEA6E1F0A8D9900F19CDB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FBADEA771F0A8E4B00F19CDB /* ItemTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		FBADEA781F0A8E4B00F19CDB /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		FBADEA7C1F0A8EAA00F19CDB /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		FBADEA7F1F0A8F2500F19CDB /* ItemViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		FBADEA821F0A9E2000F19CDB /* ItemsFeedViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsFeedViewModel.swift; sourceTree = "<group>"; };
+		FBADEA841F0AA11A00F19CDB /* DataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataProvider.swift; sourceTree = "<group>"; };
+		FBADEA861F0AA17C00F19CDB /* HubrickDataProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HubrickDataProvider.swift; sourceTree = "<group>"; };
+		FBADEA891F0AB90B00F19CDB /* image-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-card.png"; sourceTree = "<group>"; };
+		FBADEA8B1F0AB9B400F19CDB /* avatar-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "avatar-card.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74E78D18DB59DE1932171CCB /* Pods_hubrick_firebaseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +93,42 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AD770A088AABDEA253C3D5 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5FF66138ABAC82A3BBD6FEDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */,
+				EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		919C2B77AF78D3ACB2354CE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */,
+				94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */,
+				6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */,
+				1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FBADEA3F1F0A8BF900F19CDB = {
 			isa = PBXGroup;
 			children = (
 				FBADEA4A1F0A8BF900F19CDB /* hubrick-firebaseApp */,
 				FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */,
+				FBADEA711F0A8D9900F19CDB /* mobile-challenge */,
 				FBADEA491F0A8BF900F19CDB /* Products */,
+				919C2B77AF78D3ACB2354CE3 /* Pods */,
+				5FF66138ABAC82A3BBD6FEDE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,10 +145,13 @@
 			isa = PBXGroup;
 			children = (
 				FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */,
-				FBADEA4D1F0A8BF900F19CDB /* ViewController.swift */,
+				FBADEA4D1F0A8BF900F19CDB /* MainViewController.swift */,
 				FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */,
+				FBADEA7B1F0A8E7400F19CDB /* Storyboards */,
+				FBADEA881F0AA18300F19CDB /* DataProvider */,
+				FBADEA811F0A8F2E00F19CDB /* ViewModels */,
+				FBADEA7E1F0A8ED800F19CDB /* Models */,
 				FBADEA521F0A8BF900F19CDB /* Assets.xcassets */,
-				FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */,
 				FBADEA571F0A8BF900F19CDB /* Info.plist */,
 			);
 			path = "hubrick-firebaseApp";
@@ -90,10 +160,71 @@
 		FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				FBADEA601F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift */,
+				FBADEA601F0A8BF900F19CDB /* MainViewControllerTests.swift */,
+				FB387FA51F153D8500179D87 /* ItemsFeedViewModelsTests.swift */,
+				FB387FA71F153ED600179D87 /* ItemTests.swift */,
+				FB387FAD1F154CAE00179D87 /* TestHelpers.swift */,
 				FBADEA621F0A8BF900F19CDB /* Info.plist */,
 			);
 			path = "hubrick-firebaseAppTests";
+			sourceTree = "<group>";
+		};
+		FBADEA6F1F0A8D9900F19CDB /* firebase-configs */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA6D1F0A8D9900F19CDB /* google-services.json */,
+				FBADEA6E1F0A8D9900F19CDB /* GoogleService-Info.plist */,
+			);
+			path = "firebase-configs";
+			sourceTree = "<group>";
+		};
+		FBADEA711F0A8D9900F19CDB /* mobile-challenge */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA8B1F0AB9B400F19CDB /* avatar-card.png */,
+				FBADEA891F0AB90B00F19CDB /* image-card.png */,
+				FBADEA6B1F0A8D9900F19CDB /* feed-card.png */,
+				FBADEA6C1F0A8D9900F19CDB /* feed-item.json */,
+				FB387FAA1F154A1200179D87 /* feed-item-2.json */,
+				FB387FA91F154A1200179D87 /* feed-item-3.json */,
+				FBADEA6F1F0A8D9900F19CDB /* firebase-configs */,
+			);
+			path = "mobile-challenge";
+			sourceTree = "<group>";
+		};
+		FBADEA7B1F0A8E7400F19CDB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA771F0A8E4B00F19CDB /* ItemTableViewCell.swift */,
+				FBADEA781F0A8E4B00F19CDB /* ItemTableViewCell.xib */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		FBADEA7E1F0A8ED800F19CDB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA7C1F0A8EAA00F19CDB /* Item.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		FBADEA811F0A8F2E00F19CDB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA7F1F0A8F2500F19CDB /* ItemViewModel.swift */,
+				FBADEA821F0A9E2000F19CDB /* ItemsFeedViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		FBADEA881F0AA18300F19CDB /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+				FBADEA841F0AA11A00F19CDB /* DataProvider.swift */,
+				FBADEA861F0AA17C00F19CDB /* HubrickDataProvider.swift */,
+			);
+			name = DataProvider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADEA651F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseApp" */;
 			buildPhases = (
+				3A62B490B221CA98536F63B7 /* [CP] Check Pods Manifest.lock */,
 				FBADEA441F0A8BF900F19CDB /* Sources */,
 				FBADEA451F0A8BF900F19CDB /* Frameworks */,
 				FBADEA461F0A8BF900F19CDB /* Resources */,
+				8439533E31B834B0072CB333 /* [CP] Embed Pods Frameworks */,
+				EE4C2265A517C291D2F7CFDB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADEA681F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseAppTests" */;
 			buildPhases = (
+				FFD8BD59A9C4E965C3B01683 /* [CP] Check Pods Manifest.lock */,
 				FBADEA581F0A8BF900F19CDB /* Sources */,
 				FBADEA591F0A8BF900F19CDB /* Frameworks */,
 				FBADEA5A1F0A8BF900F19CDB /* Resources */,
+				03ED5ABAB43DB92CC86F851C /* [CP] Embed Pods Frameworks */,
+				291C952FEBFE6B3CC0BB057E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,7 +283,13 @@
 				TargetAttributes = {
 					FBADEA471F0A8BF900F19CDB = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9A34CKLEP5;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
 					};
 					FBADEA5B1F0A8BF900F19CDB = {
 						CreatedOnToolsVersion = 8.3.2;
@@ -179,9 +322,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADEA561F0A8BF900F19CDB /* LaunchScreen.storyboard in Resources */,
+				FBADEA8C1F0AB9B400F19CDB /* avatar-card.png in Resources */,
+				FBADEA731F0A8D9900F19CDB /* feed-item.json in Resources */,
+				FBADEA741F0A8D9900F19CDB /* google-services.json in Resources */,
 				FBADEA531F0A8BF900F19CDB /* Assets.xcassets in Resources */,
+				FBADEA8A1F0AB90B00F19CDB /* image-card.png in Resources */,
 				FBADEA511F0A8BF900F19CDB /* Main.storyboard in Resources */,
+				FBADEA721F0A8D9900F19CDB /* feed-card.png in Resources */,
+				FBADEA7A1F0A8E4B00F19CDB /* ItemTableViewCell.xib in Resources */,
+				FBADEA751F0A8D9900F19CDB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,18 +338,119 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB387FAB1F154A1200179D87 /* feed-item-3.json in Resources */,
+				FB387FAC1F154A1200179D87 /* feed-item-2.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03ED5ABAB43DB92CC86F851C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		291C952FEBFE6B3CC0BB057E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A62B490B221CA98536F63B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8439533E31B834B0072CB333 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4C2265A517C291D2F7CFDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD8BD59A9C4E965C3B01683 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBADEA441F0A8BF900F19CDB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADEA4E1F0A8BF900F19CDB /* ViewController.swift in Sources */,
+				FBADEA831F0A9E2000F19CDB /* ItemsFeedViewModel.swift in Sources */,
+				FBADEA7D1F0A8EAA00F19CDB /* Item.swift in Sources */,
+				FBADEA851F0AA11A00F19CDB /* DataProvider.swift in Sources */,
+				FBADEA791F0A8E4B00F19CDB /* ItemTableViewCell.swift in Sources */,
+				FBADEA4E1F0A8BF900F19CDB /* MainViewController.swift in Sources */,
+				FBADEA871F0AA17C00F19CDB /* HubrickDataProvider.swift in Sources */,
 				FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */,
+				FBADEA801F0A8F2500F19CDB /* ItemViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +458,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBADEA611F0A8BF900F19CDB /* hubrick_firebaseAppTests.swift in Sources */,
+				FBADEA611F0A8BF900F19CDB /* MainViewControllerTests.swift in Sources */,
+				FB387FA61F153D8500179D87 /* ItemsFeedViewModelsTests.swift in Sources */,
+				FB387FA81F153ED600179D87 /* ItemTests.swift in Sources */,
+				FB387FAE1F154CAE00179D87 /* TestHelpers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,14 +482,6 @@
 				FBADEA501F0A8BF900F19CDB /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		FBADEA541F0A8BF900F19CDB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBADEA551F0A8BF900F19CDB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -339,8 +584,10 @@
 		};
 		FBADEA661F0A8BF900F19CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A34CKLEP5;
 				INFOPLIST_FILE = "hubrick-firebaseApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseApp";
@@ -351,8 +598,10 @@
 		};
 		FBADEA671F0A8BF900F19CDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9A34CKLEP5;
 				INFOPLIST_FILE = "hubrick-firebaseApp/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.hubrick.challenge.hubrick-firebaseApp";
@@ -363,6 +612,7 @@
 		};
 		FBADEA691F0A8BF900F19CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -377,6 +627,7 @@
 		};
 		FBADEA6A1F0A8BF900F19CDB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -408,6 +659,7 @@
 				FBADEA671F0A8BF900F19CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBADEA681F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseAppTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +668,7 @@
 				FBADEA6A1F0A8BF900F19CDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
