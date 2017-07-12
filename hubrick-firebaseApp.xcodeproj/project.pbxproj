@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		74E78D18DB59DE1932171CCB /* Pods_hubrick_firebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */; };
-		89AD770A088AABDEA253C3D5 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */; };
+		3BC4C08C85F248D01BAD56C6 /* Pods_hubrick_firebaseApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0969B193C1E639E28A6B653 /* Pods_hubrick_firebaseApp.framework */; };
+		CAF0295DA85C7F7231E7C487 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6FFDA54852FDC3836CB16D8 /* Pods_hubrick_firebaseAppTests.framework */; };
 		FB387FA61F153D8500179D87 /* ItemsFeedViewModelsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FA51F153D8500179D87 /* ItemsFeedViewModelsTests.swift */; };
 		FB387FA81F153ED600179D87 /* ItemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FA71F153ED600179D87 /* ItemTests.swift */; };
 		FB387FAB1F154A1200179D87 /* feed-item-3.json in Resources */ = {isa = PBXBuildFile; fileRef = FB387FA91F154A1200179D87 /* feed-item-3.json */; };
@@ -46,12 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.release.xcconfig"; sourceTree = "<group>"; };
-		C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.debug.xcconfig"; sourceTree = "<group>"; };
-		C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DAE44C8856DA92E3947C10F /* Pods-hubrick-firebaseAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		0FFB8EBFEE0D0851954BE165 /* Pods-hubrick-firebaseApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.release.xcconfig"; sourceTree = "<group>"; };
+		6AB8B41428E2F97A4B56F25D /* Pods-hubrick-firebaseApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C6FFDA54852FDC3836CB16D8 /* Pods_hubrick_firebaseAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0969B193C1E639E28A6B653 /* Pods_hubrick_firebaseApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hubrick_firebaseApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7926AA5BCDE1DF1B233B87E /* Pods-hubrick-firebaseAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hubrick-firebaseAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		FB387FA51F153D8500179D87 /* ItemsFeedViewModelsTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemsFeedViewModelsTests.swift; sourceTree = "<group>"; };
 		FB387FA71F153ED600179D87 /* ItemTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemTests.swift; sourceTree = "<group>"; };
 		FB387FA91F154A1200179D87 /* feed-item-3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feed-item-3.json"; sourceTree = "<group>"; };
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74E78D18DB59DE1932171CCB /* Pods_hubrick_firebaseApp.framework in Frameworks */,
+				3BC4C08C85F248D01BAD56C6 /* Pods_hubrick_firebaseApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,31 +94,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				89AD770A088AABDEA253C3D5 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */,
+				CAF0295DA85C7F7231E7C487 /* Pods_hubrick_firebaseAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5FF66138ABAC82A3BBD6FEDE /* Frameworks */ = {
+		BF4DAD2537166F54AA446AC4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C605EE843BE473B286E9F29E /* Pods_hubrick_firebaseApp.framework */,
-				EC7FD756F36FC2C1205B63E7 /* Pods_hubrick_firebaseAppTests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		919C2B77AF78D3ACB2354CE3 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */,
-				94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */,
-				6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */,
-				1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */,
+				6AB8B41428E2F97A4B56F25D /* Pods-hubrick-firebaseApp.debug.xcconfig */,
+				0FFB8EBFEE0D0851954BE165 /* Pods-hubrick-firebaseApp.release.xcconfig */,
+				E7926AA5BCDE1DF1B233B87E /* Pods-hubrick-firebaseAppTests.debug.xcconfig */,
+				0DAE44C8856DA92E3947C10F /* Pods-hubrick-firebaseAppTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9CD65611A0A47EB3DD3C5DB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0969B193C1E639E28A6B653 /* Pods_hubrick_firebaseApp.framework */,
+				C6FFDA54852FDC3836CB16D8 /* Pods_hubrick_firebaseAppTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		FBADEA3F1F0A8BF900F19CDB = {
@@ -128,8 +128,8 @@
 				FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */,
 				FBADEA711F0A8D9900F19CDB /* mobile-challenge */,
 				FBADEA491F0A8BF900F19CDB /* Products */,
-				919C2B77AF78D3ACB2354CE3 /* Pods */,
-				5FF66138ABAC82A3BBD6FEDE /* Frameworks */,
+				BF4DAD2537166F54AA446AC4 /* Pods */,
+				D9CD65611A0A47EB3DD3C5DB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -235,12 +235,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADEA651F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseApp" */;
 			buildPhases = (
-				3A62B490B221CA98536F63B7 /* [CP] Check Pods Manifest.lock */,
+				9333AF4C0FAE4D54AF95A360 /* [CP] Check Pods Manifest.lock */,
 				FBADEA441F0A8BF900F19CDB /* Sources */,
 				FBADEA451F0A8BF900F19CDB /* Frameworks */,
 				FBADEA461F0A8BF900F19CDB /* Resources */,
-				8439533E31B834B0072CB333 /* [CP] Embed Pods Frameworks */,
-				EE4C2265A517C291D2F7CFDB /* [CP] Copy Pods Resources */,
+				4E4E74C11CAFF025C2C3AE13 /* [CP] Embed Pods Frameworks */,
+				BA64DDA64ADF7767F718811D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -255,12 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBADEA681F0A8BF900F19CDB /* Build configuration list for PBXNativeTarget "hubrick-firebaseAppTests" */;
 			buildPhases = (
-				FFD8BD59A9C4E965C3B01683 /* [CP] Check Pods Manifest.lock */,
+				06486B5CEDAFB154D6CEA5A3 /* [CP] Check Pods Manifest.lock */,
 				FBADEA581F0A8BF900F19CDB /* Sources */,
 				FBADEA591F0A8BF900F19CDB /* Frameworks */,
 				FBADEA5A1F0A8BF900F19CDB /* Resources */,
-				03ED5ABAB43DB92CC86F851C /* [CP] Embed Pods Frameworks */,
-				291C952FEBFE6B3CC0BB057E /* [CP] Copy Pods Resources */,
+				E71ECB3CC8FEE39BBEE1C288 /* [CP] Embed Pods Frameworks */,
+				AB7E91FA001982FE85784F1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -348,37 +348,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		03ED5ABAB43DB92CC86F851C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		291C952FEBFE6B3CC0BB057E /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A62B490B221CA98536F63B7 /* [CP] Check Pods Manifest.lock */ = {
+		06486B5CEDAFB154D6CEA5A3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -393,7 +363,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8439533E31B834B0072CB333 /* [CP] Embed Pods Frameworks */ = {
+		4E4E74C11CAFF025C2C3AE13 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -408,7 +378,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		EE4C2265A517C291D2F7CFDB /* [CP] Copy Pods Resources */ = {
+		9333AF4C0FAE4D54AF95A360 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB7E91FA001982FE85784F1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA64DDA64ADF7767F718811D /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -423,19 +423,19 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseApp/Pods-hubrick-firebaseApp-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		FFD8BD59A9C4E965C3B01683 /* [CP] Check Pods Manifest.lock */ = {
+		E71ECB3CC8FEE39BBEE1C288 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "[CP] Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hubrick-firebaseAppTests/Pods-hubrick-firebaseAppTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -586,7 +586,7 @@
 		};
 		FBADEA661F0A8BF900F19CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C34FF1AD2CFEFF468DB98EC3 /* Pods-hubrick-firebaseApp.debug.xcconfig */;
+			baseConfigurationReference = 6AB8B41428E2F97A4B56F25D /* Pods-hubrick-firebaseApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9A34CKLEP5;
@@ -600,7 +600,7 @@
 		};
 		FBADEA671F0A8BF900F19CDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94F21DDCFA5DEC8DDEA5E87C /* Pods-hubrick-firebaseApp.release.xcconfig */;
+			baseConfigurationReference = 0FFB8EBFEE0D0851954BE165 /* Pods-hubrick-firebaseApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9A34CKLEP5;
@@ -614,7 +614,7 @@
 		};
 		FBADEA691F0A8BF900F19CDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B9063EBB19C1B7C2CB87B83 /* Pods-hubrick-firebaseAppTests.debug.xcconfig */;
+			baseConfigurationReference = E7926AA5BCDE1DF1B233B87E /* Pods-hubrick-firebaseAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -629,7 +629,7 @@
 		};
 		FBADEA6A1F0A8BF900F19CDB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F948ACFC81E2D630E546D14 /* Pods-hubrick-firebaseAppTests.release.xcconfig */;
+			baseConfigurationReference = 0DAE44C8856DA92E3947C10F /* Pods-hubrick-firebaseAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
