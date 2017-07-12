@@ -12,8 +12,6 @@ $ pod install
 Simply run the app with the latest XCode 8.3 and test in the Simulator
 ### Test in a device
 Please add a Team to the project in the General Settings of the Project in XCode and build in the device that has the latest iOS
-### Test from the provided build
-Open the provided build from an iPhone/iPad with the latest iOS to install
 
 ## Usage
 The app can be used in both Profile/Landscape Layout and it is supported in all the IPhone and IPad devices with the latest iOS 10.3 installed. The design however focuses on the iPhone, so does the App
@@ -44,4 +42,4 @@ ItemTableViewCell.swift
 45 //self.imageItem.image = self.viewModel?.imageItem)
 ```
 ### To Do:
-Implement Optimizations for the image Loading and image size Reduction!
+Implement Optimizations for the image Loading (e.g. queue work and caching) and image size Reduction!

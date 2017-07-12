@@ -15,6 +15,7 @@
 		FB387FAC1F154A1200179D87 /* feed-item-2.json in Resources */ = {isa = PBXBuildFile; fileRef = FB387FAA1F154A1200179D87 /* feed-item-2.json */; };
 		FB387FAE1F154CAE00179D87 /* TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB387FAD1F154CAE00179D87 /* TestHelpers.swift */; };
 		FB387FB21F164D0200179D87 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FB387FB11F164D0200179D87 /* Info.plist */; };
+		FB387FB41F16722800179D87 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = FB387FB31F16722800179D87 /* README.md */; };
 		FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */; };
 		FBADEA4E1F0A8BF900F19CDB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBADEA4D1F0A8BF900F19CDB /* MainViewController.swift */; };
 		FBADEA511F0A8BF900F19CDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBADEA4F1F0A8BF900F19CDB /* Main.storyboard */; };
@@ -58,6 +59,7 @@
 		FB387FAA1F154A1200179D87 /* feed-item-2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "feed-item-2.json"; sourceTree = "<group>"; };
 		FB387FAD1F154CAE00179D87 /* TestHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestHelpers.swift; sourceTree = "<group>"; };
 		FB387FB11F164D0200179D87 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB387FB31F16722800179D87 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		FBADEA481F0A8BF900F19CDB /* hubrick-firebaseApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hubrick-firebaseApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBADEA4B1F0A8BF900F19CDB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBADEA4D1F0A8BF900F19CDB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		FBADEA3F1F0A8BF900F19CDB = {
 			isa = PBXGroup;
 			children = (
+				FB387FB31F16722800179D87 /* README.md */,
 				FBADEA4A1F0A8BF900F19CDB /* hubrick-firebaseApp */,
 				FBADEA5F1F0A8BF900F19CDB /* hubrick-firebaseAppTests */,
 				FBADEA711F0A8D9900F19CDB /* mobile-challenge */,
@@ -451,6 +454,7 @@
 				FBADEA791F0A8E4B00F19CDB /* ItemTableViewCell.swift in Sources */,
 				FBADEA4E1F0A8BF900F19CDB /* MainViewController.swift in Sources */,
 				FBADEA871F0AA17C00F19CDB /* HubrickDataProvider.swift in Sources */,
+				FB387FB41F16722800179D87 /* README.md in Sources */,
 				FBADEA4C1F0A8BF900F19CDB /* AppDelegate.swift in Sources */,
 				FBADEA801F0A8F2500F19CDB /* ItemViewModel.swift in Sources */,
 			);
