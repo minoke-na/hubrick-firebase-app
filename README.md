@@ -2,6 +2,8 @@
 
 ## Installation
 The app is built using XCode 8.3 and swift 3. The app does utilize the Firebase third party iOS libraries.
+- open the workspace "xcworkspace" in Xcode (not the xcodeproj), because of the Pods dependencies
+
 To install the Firebase pods execute in the app directory
 ```sh
 $ pod install
@@ -9,12 +11,12 @@ $ pod install
 ### Test in the simulator
 Simply run the app with the latest XCode 8.3 and test in the Simulator
 ### Test in a device
-Please add a Team to the project in the General Settings of the Project in XCode and build in the device
+Please add a Team to the project in the General Settings of the Project in XCode and build in the device that has the latest iOS
 ### Test from the provided build
-Open the provided build from an iPhone/iPad to install
+Open the provided build from an iPhone/iPad with the latest iOS to install
 
 ## Usage
-The app can be used in both Profile/Landscape Layout and it is supported in all the IPhone and IPad devices. The design however focuses on the iPhone, so does the App
+The app can be used in both Profile/Landscape Layout and it is supported in all the IPhone and IPad devices with the latest iOS 10.3 installed. The design however focuses on the iPhone, so does the App
 As backend the App uses the provided Hubrick Firebase DB. To test the functionality, please use the suggested [UI] : https://plnkr.co/edit/WpJsPOj8rbKlIyrXKwgI?p=preview
 
 ## Implemented Features
